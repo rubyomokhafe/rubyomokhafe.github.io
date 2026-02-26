@@ -1,1 +1,111 @@
+body {
 
+font-family: Poppins;
+
+margin: 0;
+
+background: #0d0d0d;
+
+color: white;
+
+}
+
+nav {
+
+background: #8B0000;
+
+display: flex;
+
+justify-content: space-between;
+
+padding: 15px 40px;
+
+position: sticky;
+
+top: 0;
+
+}
+
+nav a {
+
+color: white;
+
+text-decoration: none;
+
+margin: 10px;
+
+}
+
+header {
+
+height: 100vh;
+
+display: flex;
+
+flex-direction: column;
+
+justify-content: center;
+
+align-items: center;
+
+background: linear-gradient(#8B0000, #000);
+
+}
+
+h1 {
+
+font-size: 60px;
+
+}
+
+.button {
+
+background: #ff1a1a;
+
+padding: 12px 25px;
+
+margin-top: 20px;
+
+text-decoration: none;
+
+color: white;
+
+border-radius: 5px;
+
+}
+
+section {
+
+padding: 60px;
+
+}
+
+.card-container {
+
+display: flex;
+
+gap: 20px;
+
+flex-wrap: wrap;
+
+}
+
+.card {
+
+background: #1a1a1a;
+
+padding: 20px;
+
+border-radius: 10px;
+
+transition: 0.3s;
+
+}
+
+.card:hover {
+
+transform: scale(1.05);
+
+background: #8B0000;
+
+}
