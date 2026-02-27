@@ -113,3 +113,11 @@ opacity:1;
 transform:translateY(0);
 
 }
+
+body{
+
+background:linear-gradient(180deg,#1a0000,#000);
+
+font-family:serif;
+
+}
